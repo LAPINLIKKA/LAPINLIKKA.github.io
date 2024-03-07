@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap')
+.homemade-apple-regular {
+    font-family: "Homemade Apple", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+div{
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+}
+
+.html, body {
+    margin: 0;
+    padding:0;
+}
+
+.header{
+    background-image: url(Kansikuva.jpg);
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient( rgba(0, 0, 0.2)rgba(0, 0, 0.2), url(Kansikuva.jpg) );
+}
+.header h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    padding: 60px 10px 60px 10px;
+    margin: 0%;
+}
+.header h4{
+    font-family: "Homemade Apple", cursive;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    text-align:center
+    margin:0% 
+}
+.content{
+    width:90%
+    margin: auto
+    font-size: 18px
+}
+
+.beige {background-color: #f2f2f2;} /* Beige */
+.beige:hover {background: black;}
+.beige{color: #c29978;}
+  
+/* Create a top navigation bar with a black background color  */
+.topnav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #c29978;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 70px;
+  }
+
+body{
+    background-color:#c29978;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h5{
+    font-family: "Homemade Apple", cursive;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    text-align:center ;
+}
+
+h6{
+    font-family: "Homemade Apple", cursive;
+    font-size: 20px; ;
+    font-style: normal;
+    color: black;
+    text-align:center 
+}
+
+p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div{
+    text-align: center;
+}
+
+.Kansikuva {
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+    
+.profiili{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}    
+
+.footer{
+    color: black;
+    margin-top: 40px;
+}
+@media only screen and (min-width: 1025px) {
+   .content{
+    width: 55%;
+   }
+     .header h1{
+        font-size: 100px;
+        padding: 60px 10px 60px 10px
+    }
+}
+
+
