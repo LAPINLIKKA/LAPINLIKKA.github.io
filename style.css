@@ -9,7 +9,6 @@ div{
     border: 1px;
     border-color: white;
     border-style: solid;
-
 }
 
 .html, body {
@@ -70,12 +69,6 @@ div{
     color: black;
   }
   
-  /* Create a right-aligned (split) link inside the navigation bar */
-  .topnav a.split {
-    float: right;
-    background-color: #04AA6D;
-    color: white;
-  }
 
 
 .row {
@@ -140,6 +133,13 @@ div{
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+    
+.profiili{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}    
 
 .footer{
     color: black;
@@ -155,9 +155,4 @@ div{
     }
 }
 
-.profiili{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
 
